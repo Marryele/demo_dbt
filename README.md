@@ -1,4 +1,9 @@
-Welcome to your new dbt project!
+Welcome to my dbt project!
+
+Results in my Google BIG QUERY:
+
+<img width="219" alt="image" src="https://user-images.githubusercontent.com/61881425/204089543-9227be37-f37c-44aa-aa46-ebb02c73fdc8.png">
+
 
 ### Using the starter project
 
