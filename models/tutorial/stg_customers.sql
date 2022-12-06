@@ -1,11 +1,10 @@
-with customers as (
-    
-    select 
-        id as customer_id,
-        first_name,
-        last_name
+with
+    customers as (
 
-    from `extended-method-366622.jaffle_shop.customers`
-)
+        select id as customer_id, first_name, last_name
 
-select * from customers
+        from {{ source("jaffle_shop", "customers") }}
+    )
+
+select *
+from customers
