@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: extended-method-366622
+    schema: jaffle_shop
+    tables:
+      - name: customers
+      - name: orders
